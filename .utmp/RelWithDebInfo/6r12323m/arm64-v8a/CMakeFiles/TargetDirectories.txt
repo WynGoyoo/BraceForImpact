@@ -1,0 +1,5 @@
+C:/Programas Clase/Proyectos Unity/Brace For Impact Android/.utmp/RelWithDebInfo/6r12323m/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Programas Clase/Proyectos Unity/Brace For Impact Android/.utmp/RelWithDebInfo/6r12323m/arm64-v8a/CMakeFiles/rebuild_cache.dir
+C:/Programas Clase/Proyectos Unity/Brace For Impact Android/.utmp/RelWithDebInfo/6r12323m/arm64-v8a/FramePacing/CMakeFiles/swappywrapper.dir
+C:/Programas Clase/Proyectos Unity/Brace For Impact Android/.utmp/RelWithDebInfo/6r12323m/arm64-v8a/FramePacing/CMakeFiles/edit_cache.dir
+C:/Programas Clase/Proyectos Unity/Brace For Impact Android/.utmp/RelWithDebInfo/6r12323m/arm64-v8a/FramePacing/CMakeFiles/rebuild_cache.dir

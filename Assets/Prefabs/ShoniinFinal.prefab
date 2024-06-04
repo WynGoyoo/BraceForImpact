@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3066137191791024648
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: a561a11833b414343931b02b0786b9e2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a561a11833b414343931b02b0786b9e2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a561a11833b414343931b02b0786b9e2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a561a11833b414343931b02b0786b9e2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a561a11833b414343931b02b0786b9e2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a561a11833b414343931b02b0786b9e2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a561a11833b414343931b02b0786b9e2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a561a11833b414343931b02b0786b9e2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a561a11833b414343931b02b0786b9e2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a561a11833b414343931b02b0786b9e2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a561a11833b414343931b02b0786b9e2, type: 3}
+      propertyPath: m_Name
+      value: ShoniinFinal
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: a561a11833b414343931b02b0786b9e2, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 2db5e4b187295c344a154ef381821144, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a561a11833b414343931b02b0786b9e2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8121769873942294273}
+  m_SourcePrefab: {fileID: 100100000, guid: a561a11833b414343931b02b0786b9e2, type: 3}
+--- !u!1 &2759706385386858329 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a561a11833b414343931b02b0786b9e2, type: 3}
+  m_PrefabInstance: {fileID: 3066137191791024648}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8121769873942294273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2759706385386858329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8789a3677939f924594ab05f3f55944d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FireDirection: {x: 0, y: 0, z: 0}
+  joistickFire: {fileID: 0}
+  anim: {fileID: 8928261115017815961}
+  disparoPrefabMisil: {fileID: 8304586763145724315, guid: b59d04815d41ff64aa4d4ebe4018631e, type: 3}
+  disparoPrefabShot: {fileID: 8304586763145724315, guid: 61970e1dafb34514eb9039eaccbd0f94, type: 3}
+  fireRateMisil: 1
+  fireRateShot: 0.1
+  firePoint: {fileID: 0}
+  firepoint2: {fileID: 0}
+  fireCountShot: 0
+  fireCountMisil: 0
+  multishoter: {fileID: 1139119319156723944, guid: cf0e3b9c48e676742b952561d395facd, type: 3}
+  Bomba: {fileID: 7527025493727468571, guid: 23d2a24d10377234cb0be79a073ae5fd, type: 3}
+  PowerGauge: 0
+  MaxPowerGauge: 100
+  imageBarBomb: {fileID: 0}
+  disparo: {fileID: 0}
+  clip: {fileID: 8300000, guid: 0a703d78a20b2434397c09bafa20a12a, type: 3}
+  Spread: {x: 0, y: 0, z: 0, w: 0}
+--- !u!95 &8928261115017815961 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: a561a11833b414343931b02b0786b9e2, type: 3}
+  m_PrefabInstance: {fileID: 3066137191791024648}
+  m_PrefabAsset: {fileID: 0}
